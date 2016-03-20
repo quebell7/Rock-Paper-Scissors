@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+    	<link href='https://fonts.googleapis.com/css?family=Open+Sans|Coustard' rel='stylesheet' type='text/css'>
+
+		<title>R.P.S.</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+	</head>
+	<body>
+		<header>
+			<div>
+				<h1>R | P | S</h1>
+			</div>
+		</header>
+
+		<section id="all-buttons">
+			<div class="button-container">
+				<button class="throw-button rock" onClick="buttonRock();">
+			</div>
+
+
+			<div class="button-container">
+				<button class="throw-button paper" onClick="buttonPaper();">
+			</div>
+
+			<div class="button-container">
+				<button class="throw-button scissors" onClick="buttonScissors();">
+			</div>
+
+
+			<div class="hide" id="show-this-on-throw">
+				<div>
+				<p>Your Throw</p>
+				<h2 class="my-throw"></h2>
+				</div>
+		
+
+				<div id="computer">
+				<p class="two">Computer's Throw</p>
+				<h2 class="computers"><span class="computers"></span></h2>
+				</div>
+
+				<div id="playagain">
+					<button id="playagain_button">Play Again</button>
+				</div>
+
+			</div>
+
+		</section>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

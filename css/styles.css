@@ -1,0 +1,182 @@
+/*******
+
+General Styles
+
+*******/
+
+
+body {
+	background: #e1e1e1;
+	font-family: 'Open Sans', sans-serif;
+	margin: 100px auto;
+}
+
+header {
+	text-align: center;
+	background: black;
+	border: 1px solid black;
+	width: 850px;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+#playagain {
+	text-align: center;
+	background: black;
+	border: 1px solid black;
+	width: 850px;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+h1 {
+	font-family: 'Coustard', serif;
+	font-size: 1.6em;
+	color: white;
+	letter-spacing: .3em;
+}
+
+h2 {
+	font-family: 'Coustard', serif;
+	font-size: 7.6em;
+	letter-spacing: .05em;
+	color: white;
+	padding-bottom: 20px;
+}
+
+
+p  {
+	text-align: center;
+	color: white;
+	letter-spacing: .07em;
+}
+
+p.two {
+	color: black;
+}
+
+h2.computers {
+	color: black;
+}
+
+h2.my-throw {
+	color: white;
+}
+
+/*******
+
+BUTTONS
+
+*******/
+
+#all-buttons {
+	border: 1px solid black;
+	background: #f6f5f5;
+	width: 850px;
+	margin: auto;
+/*	padding-top: 20px;
+	padding-bottom: 20px;*/
+}
+
+.button-container {
+	width: 200px;
+	text-align: center;
+	margin: 20px 0px 20px 60px;
+	display: inline-block;
+
+}
+
+.throw-button {
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	border-radius:13px;
+	border:5px solid #666;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:50px 50px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+.rock {
+	background: url("../images/rock.png") no-repeat #ededed;
+	background-position: -60px center;
+}
+
+.rock-hover {
+	background: url("../images/rock-on.png") no-repeat #ededed;
+	background-position: -60px center;
+}
+
+.paper {
+	background: url("../images/paper.png") no-repeat #ededed;
+	background-position: -25px -20px;
+}
+
+.paper-hover {
+	background: url("../images/paper-hover.png") no-repeat #ededed;
+	background-position: -25px -20px;
+}
+
+.scissors {
+	background: url("../images/scissors.png") no-repeat #ededed;
+	background-position: -15px -15px;
+	background-size: 140%;
+}
+
+.scissors-hover {
+	background: url("../images/scissors-hover.png") no-repeat #ededed;
+	background-position: -15px -15px;
+	background-size: 140%;
+}
+
+.throw-button:hover {
+	background-color:#dfdfdf;
+	border:5px solid red;
+
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#show-this-on-throw {
+	padding-top: 30px;
+	text-align: center;
+	background-color:red;
+	width: 850px;
+
+}
+
+#computer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: #f6f5f5;
+}
+
+.hide {
+  display: none;
+}
+
+
+#playagain_button {
+    text-align: center;
+	color: white;
+	letter-spacing: .07em;
+	color: white;
+    padding: 9px 41px;
+    text-shadow: 1px 1px 0px #5E5E5E;
+    cursor: pointer;
+    display: inline-block;
+    background-color: red;
+}
+
+
+
